@@ -312,8 +312,8 @@ if __name__ == '__main__':
     logging.basicConfig(format='%(asctime)s %(levelname)s : %(message)s',
     level=logging.DEBUG, stream=sys.stdout)
 
-    data_folder_2a = r'D:\BCI\BCICIV_2a_gdf'
-    data_folder_2b = r'D:\BCI\BCICIV_2b_gdf'
+    data_folder_2a = r'./BCICIV_2a_gdf'
+    data_folder_2b = r'./BCICIV_2b_gdf'
     cuda =True
     low_cut_hz =0
     high_cut_hz =38
